@@ -1,0 +1,40 @@
+{
+  "world_id": "8cb64c3d-3cb8-45de-993d-ba665feca3b4",
+  "display_name": "",
+  "tags": null,
+  "assets": {
+    "mesh": {
+      "collider_mesh_url": "https://cdn.marble.worldlabs.ai/8cb64c3d-3cb8-45de-993d-ba665feca3b4/18cde032.glb",
+      "hq_mesh_url": null,
+      "full_res_mesh_url": null
+    },
+    "imagery": {
+      "pano_url": "https://cdn.marble.worldlabs.ai/8cb64c3d-3cb8-45de-993d-ba665feca3b4/66465448-463b-4a7c-b408-1de00f8d0870_panos/rgb_0.png"
+    },
+    "splats": {
+      "spz_urls": {
+        "500k": "https://cdn.marble.worldlabs.ai/8cb64c3d-3cb8-45de-993d-ba665feca3b4/4cb8f07a-0db8-4529-8ef0-1bf076d00702_ceramic_500k.spz",
+        "100k": "https://cdn.marble.worldlabs.ai/8cb64c3d-3cb8-45de-993d-ba665feca3b4/4f4e3656-062e-46c9-ba91-b4cac8779d41_dust_100k.spz",
+        "150k": "https://cdn.marble.worldlabs.ai/8cb64c3d-3cb8-45de-993d-ba665feca3b4/cf8ac75a-509e-47d2-ab3a-58c3d087f900_ceramic_150k.spz",
+        "full_res": "https://cdn.marble.worldlabs.ai/8cb64c3d-3cb8-45de-993d-ba665feca3b4/daedc522-3418-43a7-b4cd-342ed6df225f_ceramic.spz"
+      },
+      "semantics_metadata": {
+        "metric_scale_factor": 1.4680269,
+        "ground_plane_offset": 0.8448306
+      }
+    },
+    "thumbnail_url": "https://cdn.marble.worldlabs.ai/8cb64c3d-3cb8-45de-993d-ba665feca3b4/b4d93ace-1898-41d7-afba-1b879a913033_sand_mpi/thumbnail.webp",
+    "caption": "The scene is a traditional Chinese temple courtyard, rendered in a realistic style, conveying a serene and slightly melancholic tone after a recent rain. The atmosphere is peaceful and reflective, with the muted light of an overcast day illuminating the space. The courtyard is paved with large, irregularly shaped grey stone flagstones that are visibly wet, reflecting the soft light and indicating the recent rain. A weathered timber colonnade defines the main building, its dark wooden pillars and intricate carvings speaking to centuries of craftsmanship. The building's roof is adorned with traditional grey tiles, featuring gently upturned eaves that are characteristic of Chinese architecture. The walls are a mix of white plaster and exposed, textured stone, showing signs of age and natural wear. An open doorway with a stone archway is set into one of the plastered walls, leading to another section of the temple grounds, suggesting a series of interconnected courtyards and structures beyond. Clumps of lush green bamboo stand tall on the right, their slender stalks providing a natural contrast to the stone and timber, while various potted plants and small, meticulously maintained trees are strategically placed throughout the space, adding touches of nature and life. To the left, another segment of the colonnade extends, hinting at a larger complex of wooden structures that define the perimeter of the courtyard. The grey stone paving stretches continuously, forming a cohesive walking space throughout the entire temple area, with architectural elements maintaining a consistent, realistic metric scale and perspective. The 360 scene is faultless."
+  },
+  "created_at": null,
+  "updated_at": null,
+  "permission": {
+    "public": false,
+    "allowed_readers": [],
+    "allowed_writers": [],
+    "allow_id_access": false
+  },
+  "world_prompt": null,
+  "world_marble_url": "https://marble.worldlabs.ai/world/8cb64c3d-3cb8-45de-993d-ba665feca3b4",
+  "model": null
+}

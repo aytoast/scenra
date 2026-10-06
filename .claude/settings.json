@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(scenra-project)",
+      "Skill(scenra-uncover)",
+      "Skill(scenra-world)",
+      "Skill(scenra-3d)",
+      "Skill(scenra-plate)",
+      "Skill(scenra-image-edit)",
+      "Bash(ls:*)",
+      "Bash(node .claude/scripts/**:*)",
+      "Bash(node .claude/scripts/project/show-url.mjs:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(lsof:*)",
+      "Bash(mkdir:*)",
+      "Bash(cd:*)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/setup-check.sh"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/input-check.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

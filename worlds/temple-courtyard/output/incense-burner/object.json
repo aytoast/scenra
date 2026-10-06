@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "world": "temple-courtyard",
+  "object": {
+    "id": "incense-burner",
+    "name": "Incense burner",
+    "description": "Incense burner",
+    "source_images": [
+      "worlds/temple-courtyard/output/incense-burner/0-incense-burner.png"
+    ],
+    "evidence": [
+      {
+        "image": "worlds/temple-courtyard/output/incense-burner/0-incense-burner.png",
+        "notes": "Direct single-image object input"
+      }
+    ],
+    "generate_as_3d_object": true,
+    "working_dir": "worlds/temple-courtyard/output/incense-burner"
+  },
+  "updated_at": "2026-10-05T08:27:17.633Z"
+}

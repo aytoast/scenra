@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "world": "temple-courtyard",
+  "object": {
+    "id": "wooden-bench",
+    "name": "Wooden bench",
+    "description": "Wooden bench",
+    "source_images": [
+      "worlds/temple-courtyard/output/wooden-bench/0-wooden-bench.png"
+    ],
+    "evidence": [
+      {
+        "image": "worlds/temple-courtyard/output/wooden-bench/0-wooden-bench.png",
+        "notes": "Direct single-image object input"
+      }
+    ],
+    "generate_as_3d_object": true,
+    "working_dir": "worlds/temple-courtyard/output/wooden-bench"
+  },
+  "updated_at": "2026-10-05T08:27:17.614Z"
+}

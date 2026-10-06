@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "slug": "temple-courtyard",
+  "display_name": "Temple courtyard",
+  "notes": "Marble environment with separated Tripo props.",
+  "motion": {
+    "manifest_url": "/stageon/fight-fall.json",
+    "skin_url": "/stageon/core-skin.bin",
+    "position": [0, 0.03, -3]
+  },
+  "player_spawn": {
+    "position": [
+      -1.5,
+      1.9,
+      4.5
+    ],
+    "yaw": 0
+  }
+}

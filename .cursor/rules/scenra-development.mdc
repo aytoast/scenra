@@ -1,0 +1,33 @@
+---
+description: Cursor-only development guidance for the SCENRA repository
+alwaysApply: true
+---
+
+# SCENRA Development
+
+- This Cursor rule is for repository development in Cursor only. Do not mirror this into root `CLAUDE.md`; Claude Code end users should consume `.claude/rules/project.md` and `.claude/skills/*/SKILL.md`.
+- SCENRA has two main parts:
+  - Claude Skills in `.claude/skills/`, backed by scripts in `.claude/scripts/`.
+  - The React viewer in `app/`, built with TypeScript, Vite, React Three Fibre, SparkJS, Leva, Wouter, and Tailwind CSS.
+- The shared working area is `worlds/`, and staged user input starts in `input/`. Both are gitignored.
+- The canonical Scenra file convention lives in `.claude/rules/project.md`. Keep generated state simple: `ls -a` first, visible indexed artifacts for outputs, hidden request JSON for request/resume details.
+- Environment keys:
+  - `WORLD_LABS_API_KEY` for `/scenra-world`.
+  - `OPENAI_API_KEY` for image editing; image request access only.
+  - `TRIPO_API_KEY` for `/scenra-3d`.
+- The repository root is the npm workspace root. Run package-manager commands from the root; do not create ad hoc root dependencies outside the workspace.
+  - `npm install`
+  - `npm run dev`
+  - `npm run build`
+  - `npm run test`
+  - `npm run typecheck`
+- The React viewer package lives in `app/`. If you need to target it directly, use root commands with `--workspace=app`:
+  - `npm --workspace=app run dev`
+  - `npm --workspace=app run build`
+  - `npm --workspace=app run test`
+  - `npm --workspace=app run typecheck`
+- `worlds/<slug>/scene/project.json` is the shared Three.js editor scene contract. It uses the Three.js editor App format and is loaded by the React app through `THREE.ObjectLoader`.
+- Keep the React viewer modular. Character controller, post-processing, loading transitions, scene objects, and splat rendering should remain independent modules composed at the scene level.
+- Use `wouter` for routing. The active world is driven by `/<world-name>`, and `/` loads the first available world.
+- Mobile support matters. Character controls should support touch input alongside keyboard/mouse.
+- OpenAI, Tripo, and World Labs API calls belong in implementation scripts, not standalone direct-use skills. Skills should stay thin workflow wrappers.

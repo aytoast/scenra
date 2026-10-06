@@ -1,0 +1,26 @@
+{
+  "simulator": {
+    "source": "Local running Scenra application",
+    "url": "http://127.0.0.1:5173/temple-courtyard",
+    "status": "Actual screen captures"
+  },
+  "videoVillage": {
+    "tool": "built-in image_gen",
+    "asset": "director-video-village.png",
+    "prompt": "Photorealistic behind-the-scenes documentary photograph of a small professional Chinese film crew shooting a live-action drama in an old traditional Chinese temple courtyard, wide landscape 16:9. Spatial composition is crucial: foreground at RIGHT shaded off-camera corner, a director in dark casual clothing sits on ONE canvas folding director chair, three crew members closely stand behind and beside him, everyone looks at exactly ONE compact approximately 22-inch black production monitor with sun hood on a low simple mobile stand. Monitor is angled toward this group, its front partially visible to photographer; screen shows close framing of the same two actors performing in distant background. This is a real video-village arrangement, no computer editing desk. CLEAR OPEN WORKING SPACE separates the director group from the shoot by about 8 meters. At distant LEFT-middle courtyard, TWO Chinese adult actors face each other performing dialogue, natural contemporary plain clothing. A camera operator operates a large professional cinema camera with matte box and lens on low wheeled dolly on two parallel metal rails running laterally in front of actors. One grip beside dolly, one boom operator at left holds one long black boom pole above actors, microphone suspended just above actor heads, outside camera frame. Director group is safely off camera's shooting axis. Photograph taken from behind and to the side of director group, wide 28mm lens, so entire real film-set spatial arrangement is visible in single image, both nearby small monitoring group and distant camera/actors, believable distances and human proportions. ONLY ONE visible monitor in entire photograph, no second display, no giant screen, no screen wall, no laptop; cinema camera uses tiny optical eyepiece with no visible LCD. Real grey roof tiles, aged red wooden doors, stone paving, soft overcast daylight, moss and leafy tree, realistic crew cables and subtle working set clutter. Restrained Fujifilm Classic Chrome color rendering, muted olive grey, warm skin, documentary film grain, authentic photography with precise realistic hands and faces, no cartoon, no illustration, no CGI, no hologram, no text, no logos. This generic production monitor placement illustrates a proposed future Jupiter SR spatial director monitor; do not imitate any product design or imply actual installed hardware.",
+    "referenceArticle": "https://teradek.com/blogs/articles/why-our-director-has-never-been-happier-feat-1st-ac-tyler-hollman",
+    "status": "AI-generated concept photo; proposed spatial monitor position, no verified hardware"
+  },
+  "picoSpatialRender": {
+    "source": "spatial-study.mjs",
+    "status": "Live Three.js rendering. Two PerspectiveCamera views share scene and simulated headset trajectory. Operator, headset and hoverboard are modeled geometry; no generated image used."
+  },
+  "firstPunchPreview": {
+    "source": "fight-fall.json",
+    "sourceFile": "fight-fall.bin",
+    "editTargets": "first-punch-edit.json",
+    "renderer": "Three.js",
+    "method": "Local two-bone IK and keyframe interpolation on saved ARDY positions; model regeneration has not run.",
+    "preserved": "Other joints, opponent motion, arm bone lengths and strike endpoint."
+  }
+}

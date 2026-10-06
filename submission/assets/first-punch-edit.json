@@ -1,0 +1,31 @@
+{
+  "source": "fight-fall.json",
+  "actor": 0,
+  "jointIndex": 10,
+  "instruction": "Pull first punch farther back and strike faster; preserve actor placement and strike target.",
+  "previewMethod": "Saved ARDY motion with two-bone IK and keyframe interpolation; no new ARDY inference.",
+  "replanFromFrame": 60,
+  "throughFrame": 90,
+  "keyframes": [
+    {
+      "frame": 70,
+      "time": 3.5,
+      "position": [
+        -0.16207482323843828,
+        1.4253363609313965,
+        0.2625058471213091
+      ]
+    },
+    {
+      "frame": 73,
+      "time": 3.65,
+      "position": [
+        0.4303705096244812,
+        1.4378230571746826,
+        0.08811261504888535
+      ]
+    }
+  ],
+  "originalStrikeDurationMs": 300,
+  "previewStrikeDurationMs": 150
+}

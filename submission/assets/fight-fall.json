@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "name": "fight-fall-ending-20260817-1112",
+  "fps": 20,
+  "actorCount": 2,
+  "frameCount": 240,
+  "jointCount": 27,
+  "data": "fight-fall.bin",
+  "sourceSha256": "2812996072775c992dac5ad52648e27a9f0c56f7d3ff2ce1d57ecc75c0204ce2",
+  "description": "Saved fight motion; original joint positions and rotations. Stageon preview floor and lighting."
+}

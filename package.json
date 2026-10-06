@@ -1,0 +1,17 @@
+{
+  "name": "scenra-workspace",
+  "private": true,
+  "workspaces": [
+    "app"
+  ],
+  "scripts": {
+    "demo:setup": "node scripts/setup-demo.mjs",
+    "demo:generate": "node scripts/prepare-demo.mjs",
+    "dev": "npm --workspace=app run dev",
+    "build": "npm --workspace=app run build",
+    "preview": "npm --workspace=app run preview",
+    "typecheck": "npm --workspace=app run typecheck",
+    "test:providers": "node --test .claude/scripts/asset-pipeline/providers.test.mjs",
+    "test": "npm run test:providers && npm --workspace=app run test"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "provider": "codex-imagegen",
+  "created_at": "2026-10-05T08:08:18.156Z",
+  "source": "input/temple-courtyard-source.png",
+  "images": [
+    {
+      "path": "worlds/temple-courtyard/source/2-temple-courtyard-plate.png",
+      "prompt": "Use case: precise-object-edit. Edit target: attached local photograph of traditional Chinese temple courtyard after rain. Asset type: clean environment reference for World Labs 3D reconstruction. Remove only foreground wooden bench, tea table including teapot and cups, and bronze incense burner. Fill their footprints with continuous damp stone paving. Preserve existing architecture, stairs, gate opening, bamboo, lanterns, planters, lighting, camera viewpoint, framing and photographic detail exactly. Empty courtyard with no people. No text or watermark."
+    },
+    {
+      "path": "worlds/temple-courtyard/output/wooden-bench/0-wooden-bench.png",
+      "prompt": "Use case: background-extraction. Reference image: provided temple courtyard photograph. Asset type: single-object reference for Tripo image-to-3D. Isolate foreground weathered wooden bench with four sturdy legs and lower horizontal brace. Match wood color, worn grain, shape and proportions from reference. Show complete bench in clear three-quarter front view, centered with margin. Remove courtyard, ground, table, burner, people and all other objects. Plain white studio background, soft neutral illumination, no cast ground shadow, no text, no watermark. Exactly one bench."
+    },
+    {
+      "path": "worlds/temple-courtyard/output/tea-table/0-tea-table.png",
+      "prompt": "Use case: background-extraction. Reference image: provided temple courtyard photograph. Asset type: single-object reference for Tripo image-to-3D. Isolate small dark wooden tea table from foreground center. Preserve square tabletop, four legs, small carved geometric apron and worn dark wood material. Table only; remove teapot, cups and everything resting on tabletop. Complete table in clear three-quarter front view, centered with margin, plain white studio background and soft neutral lighting. No courtyard, floor, bench, burner, people, text, watermark or cast ground shadow. Exactly one table."
+    },
+    {
+      "path": "worlds/temple-courtyard/output/incense-burner/0-incense-burner.png",
+      "prompt": "Use case: background-extraction. Reference image: provided temple courtyard photograph. Asset type: single-object reference for Tripo image-to-3D. Isolate foreground bronze incense burner at right. Preserve rounded dark patinated bronze bowl, open empty top, two tall curved handles, three short ornate feet and small gold-toned relief medallion. Complete object centered in clear three-quarter front view. Plain white studio background and soft neutral light. Remove courtyard, paving, bench, table, people, smoke, fire, text and watermark. Exactly one empty unlit bronze burner, no cast ground shadow."
+    }
+  ]
+}

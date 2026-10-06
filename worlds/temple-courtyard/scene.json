@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "instances": [
+    {
+      "instanceId": "prop-wooden-bench",
+      "objectId": "wooden-bench-0",
+      "assetId": "temple-courtyard/wooden-bench/0",
+      "physics": "rigidbody",
+      "position": [
+        -0.95,
+        0,
+        -3.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        3.8,
+        3.8,
+        3.8
+      ]
+    },
+    {
+      "instanceId": "prop-tea-table",
+      "objectId": "tea-table-0",
+      "assetId": "temple-courtyard/tea-table/0",
+      "physics": "rigidbody",
+      "position": [
+        1.3,
+        0,
+        -3.65
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.6,
+        1.6,
+        1.6
+      ]
+    },
+    {
+      "instanceId": "prop-incense-burner",
+      "objectId": "incense-burner-0",
+      "assetId": "temple-courtyard/incense-burner/0",
+      "physics": "rigidbody",
+      "position": [
+        1.85,
+        0,
+        -3.35
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        2.0168744643357197,
+        2.0168744643357197,
+        2.0168744643357197
+      ]
+    }
+  ],
+  "sun": {
+    "intensity": 1.6,
+    "rotation": [
+      0.4,
+      0,
+      -0.4
+    ],
+    "environmentIntensity": 0.8
+  },
+  "metricScaleFactor": 1.4680269,
+  "groundPlaneOffset": 0.8448306,
+  "groundPlaneColliderEnabled": true,
+  "shadowCatcherOpacity": 0.35,
+  "shadowCatcherColor": "#272a25"
+}

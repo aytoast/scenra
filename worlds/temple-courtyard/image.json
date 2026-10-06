@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "scene_name": "Temple courtyard",
+  "literal_description": "Traditional Chinese temple courtyard after rain. One character waits beside bench; second enters through courtyard gate and places sealed letter on tea table.",
+  "environment": "Traditional Chinese timber courtyard, grey tile roofs, damp stone paving, white plaster, bamboo",
+  "visual_style": "Photographic, muted natural colors",
+  "lighting": "Overcast late afternoon after rain",
+  "source_images": [
+    "worlds/temple-courtyard/source/0-temple-courtyard.png"
+  ]
+}
